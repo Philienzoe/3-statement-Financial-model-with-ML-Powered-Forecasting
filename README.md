@@ -13,19 +13,19 @@ Traditional financial models require analysts to manually estimate future assump
 
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌──────────────────┐
-│  Yahoo Finance   │────▶│  Data Fetcher    │────▶│  315+ financial  │
-│  (any ticker)    │     │  (dynamic)       │     │  fields captured │
+│  Yahoo Finance  │───▶  Data Fetcher     ───▶    315+ financial 
+│  (any ticker)   │     │  (dynamic)      │     │  fields captured │
 └─────────────────┘     └─────────────────┘     └────────┬─────────┘
-                                                          │
-                        ┌─────────────────┐               ▼
-                        │  ML Predictor    │     ┌──────────────────┐
-                        │  (trained on     │────▶│  Assumptions     │
-                        │   7,000+ stocks) │     │  Engine          │
+                                                         │
+                        ┌─────────────────┐              ▼
+                        │  ML Predictor   │     ┌──────────────────┐
+                        │  (trained on    │───▶    Assumptions     
+                        │   7,000+ stocks)│     │  Engine          │
                         └─────────────────┘     └────────┬─────────┘
-                                                          │
-                        ┌─────────────────┐               ▼
-                        │  Excel Report    │◀────┌──────────────────┐
-                        │  (.xlsx output)  │     │  Forecast Engine │
+                                                         ▼
+                        ┌─────────────────┐     ┌──────────────────┐        
+                        │  Excel Report   │◀────  Forecast Engine
+                        │  (.xlsx output) │     │   
                         └─────────────────┘     └──────────────────┘
 ```
 
